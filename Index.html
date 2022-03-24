@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MARIA GIMENEZ</title>
+<link href="Estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="encabezado"><a href="Index.html"><img src="logoopcion4.jpg" alt="" width="400" height="134"/></a></div>
+	
+	<div class="navegador">
+		<ul>
+		  <li><a href="Biografia.html">Biografia</a></li>
+			<li><a href="Personajes.html">Personajes</a></li>
+			<li><a href="Mundo.html">Mundo</a></li>
+			<li><a href="Prensa.html">Prensa</a></li>
+		  <li><a href="Contacto.html">Contacto</a></li>
+		  <li><a href="https://www.facebook.com/Mar%C3%ADa-Gim%C3%A9nez-Photography-207503759326996/" target="_blank"><img src="redessociales/icono-facebook-.png" width="25" height="25" alt=""/></a></li>
+		  <li><a href="https://www.instagram.com/merymgimenez/?hl=es-la" target="_blank"><img src="redessociales/icono-instagram-.png" width="25" height="25" alt=""/></a> </li>
+      </ul>
+	</div>
+	
+<div class="slider-container">
+  <img src="GALERIAMARIAGIMENEZ/MARIAGIMENEZMUNDO/MGMUNDO00004.jpg" alt="1" class="mySlides">
+  <img src="GALERIAMARIAGIMENEZ/MARIAGIMENEZMUNDO/MGMUNDO00001.jpg" alt="2"  class="mySlides">
+  <img src="GALERIAMARIAGIMENEZ/MARIAGIMENEZMUNDO/MGMUNDO00006.jpg" alt="3" class="mySlides">
+  <img src="GALERIAMARIAGIMENEZ/MARIAGIMENEZMUNDO/MGMUNDO00013.jpg" alt="4"  class="mySlides">
+</div>
+<div class="slider-container">
+  <img src="GALERIAMARIAGIMENEZ/PERSONAJESRETRATADOS/MGPERSONAJESRETRATADOS00015.jpg" alt="1" class="mySlides2">
+  <img src="GALERIAMARIAGIMENEZ/PERSONAJESRETRATADOS/MGPERSONAJESRETRATADOS00003.jpg" alt="2" class="mySlides2">
+  <img src="GALERIAMARIAGIMENEZ/PERSONAJESRETRATADOS/MGPERSONAJESRETRATADOS00023.jpg" alt="3"  class="mySlides2">
+  <img src="GALERIAMARIAGIMENEZ/PERSONAJESRETRATADOS/MGPERSONAJESRETRATADOS00002.jpg" alt="4" class="mySlides2">
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+	
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 1500); // Cambia la imagen cada 2 segundos
+}
+</script> 
+
+<script>
+var slideIndex2 = 1;
+showDivs(slideIndex2);
+
+function plusDivs(n) {
+    showDivs(slideIndex2 += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides2");
+    if (n > x.length) {slideIndex2 = 1} 
+    if (n < 1) {slideIndex2 = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex2-1].style.display = "block"; 
+}
+	
+carousel2();
+
+function carousel2() {
+    var i;
+    var x = document.getElementsByClassName("mySlides2");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex2++;
+    if (slideIndex2 > x.length) {slideIndex2 = 1} 
+    x[slideIndex2-1].style.display = "block"; 
+    setTimeout(carousel2, 1500); // Cambia la imagen cada 2 segundos
+}
+</script>
+
+	
+	<div 
+		 class="pie"><a href="Mapadelsitio.html">Mapa de Sitio.</a><a href="WIREFRAMEINDEXMARIAGIMENEZ.jpg"></a> Produccion digital 1 2018: Azul Mar&iacute;a Acu&ntilde;a</div> 
+	</body>
+</html>
