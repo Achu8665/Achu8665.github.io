@@ -1,74 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>TINI-2022</title>	
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TINI-2022</title>
 </head>
+
 <body>
-<header><img src="./img/TINIBG.jpg" width="100%">
-</header>
-<div class="contenedor"> 
-<div> <h1>¿QUERÉS CONOCER A TINI EN PERSONA? </h1>
-  <h2>¡Entonces esta es tu oportunidad!</h2>
-<h3>¡Participá por DOS PASES MEET & GREET para conocer a tu ídola!</h3>
-</div>
-<div>
-  <form>
-  <label placeholder="Nombre y Apellido" for="fname">Nombre y Apellido:</label><br>
-  <input type="text" id="nombre" name="nombre"><br>
-  <label for="Pais">País:</label><br>
-  <input type="text" id="Pais" name="Pais"><br>
-  <label for="correo">Correo Electrónico:</label><br>
-  <input type="text" id="Correo Electronico" name="Correo Electronico"><br>
+  <header>
+    <section>Presenta <img src="./img/starpluslogo.png" class="Starpluslogo"></section><br>
+    <section id="tini">TINI</section><br>
+    <section>Meet&Greet <br>Tour 2022</section><br>
 
+  </header>
+  <div class="contenedor">
+    <div class="row">
+      <div class="column">    <div>
+        <h1>¿QUERÉS CONOCER A <strong>TINI</strong> EN PERSONA? </h1>
+        <h2>¡Entonces <strong>esta es tu oportunidad!</strong></h2>
+        <h3>¡Participá por <strong>DOS PASES MEET & GREET</strong> para conocer a tu ídola!</h3>
+        <section class="info">Mayo 2022</section>
+        <section class="info">HIPÓDROMO DE PALERMO</section>
+        <section class="info"><strong>AL TERMINO DEL SHOW</strong></section>
+      </div></div>
+      <div class="column">
+        
+    <div>
+      <form action="./Thankyoupage.html">
+        <section class="info">Deja tus datos para participar</section>
+        <label placeholder="Nombre y Apellido" for="fname">Nombre y Apellido:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="Canción_favorita">Canción favorita:</label><br>
+        <input type="text" id="Canción_favorita" name="Canción_favorita" required><br>
+        <label for="correo">Correo Electrónico:</label><br>
+        <input type="email" id="Correo Electronico" name="Correo Electronico"required><br> <!--para que te tome el correo tiene que tener type email-->
 
-  <label for="cancion">Canción favorita:</label><br>
-
-<select name="cancion" id="cancion">
-
-  <option value="Seleccionar">Seleccionar</option>
-  <option value="22">22</option>
-  <option value="2:50 Remix">2:50 Remix</option>
-  <option value="Acércate">Acércate</option>
-  <option value="Aquí Estoy">Aquí Estoy</option>
-  <option value="Bar">Bar</option>
-  <option value="Consejo de Amor">Consejo de Amor</option
-  >
-  <option value="Diciembre">Diciembre</option>
-  <option value="Duele">Duele</option>
-  <option value="Ella Dice">Ella Dice</option>
-  <option value="Fantasi">Fantasi</option>
-  <option value="Flores">Flores</option>
-  <option value="Fresa">Fresa</option>
-  <option value="High Remix">High Remix</option>
-  <option value="La Niña de la Escuela">La Niña de la Escuela</option>
-  <option value="Maldita Foto">Maldita Foto</option>
-  <option value="Miénteme">Miénteme</option>
-  <option value="Oye">Oye</option>
-  <option value="Playa">Playa</option>
-  <option value="Por Que Te Vas">Por Que Te Vas</option>
-  <option value="Princesa">Princesa</option>
-  <option value="Quiero Volver">Quiero Volver</option>
-  <option value="Recuerdo">Recuerdo</option>
-  <option value="Respirar">Respirar</option>
-  <option value="Sad Song">Sad Song</option>
-  <option value="Si Tu Supieras">Si Tu Supieras</option>
-  <option value="Somos el Cambio">Somos el Cambio</option>
-  <option value="Suéltate El Pelo">Suéltate El Pelo</option>
-  <option value="Te Olvidaré">Te Olvidaré</option>
-  <option value="Todo Es Posible">Todo Es Posible</option
-  >
-  <option value="Tuyo">Tuyo</option>
-  <option value="Un beso en madrid">un beso en madrid</option>
-  <option value="Ya no me llames">Ya no me llames</option>
-
-</select><br>
-
-<input type="submit" class="submit">
-</form>
-</div>
-</div>
+        <label for="Horoscopo">Decinos el Sol, la Luna y el Ascendente de TINI</label><br>
+        <input type="text" id="Horoscopo" name="Horoscopo"required><br>
+        <div class="form-group">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> Suscribite al Newsletter
+      </label>
+    </div>
+  </div>
+    
+        <input type="submit" class="submit">
+      </form>
+    </div>
+      </div>
+    </div>
+    <footer>
+     TINI<br>©2022 Todos los derechos reservados  
+  <!--MODIFICA EL FOOTER-->
+  </footer>
+  </div>
+  
 </body>
+
 </html>
