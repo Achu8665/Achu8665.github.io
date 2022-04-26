@@ -8,7 +8,7 @@ header {
   color: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 150px;
+  padding-top: 80px;
   padding-bottom: 50px;
   display: inline-block;
   text-align: center;
@@ -24,11 +24,29 @@ body {
   background-repeat: no-repeat;
 
 }
+
+    .gif {
+      background-image: url("https://media.giphy.com/media/3ohjUSp3Em6zkPvf9u/giphy.gif"); 
+                background-position: center;  
+                background-size: cover; 
+                background-repeat: no-repeat;
+            } 
+     
 #tini{
   font-family: 'Volkhov', serif;
   font-size: 10em;
+  color: rgb(0, 0, 0);
 }
-
+#tinicelulares{
+  font-family: 'Volkhov', serif;
+  font-size: 10em;
+  color: rgb(0, 0, 0);
+  
+}
+.celulares{
+  color: rgb(255, 255, 255);
+}
+/*para ponerle propiedades a un id se usa un # adelante*/
 h1 {
   color: black;
   font-size: 40px;
@@ -105,6 +123,17 @@ section {
 }
 
 
+.background{
+  text-align: center;
+  border: 3px solid gold;
+  border-radius: 10px;
+  background-color: rgba(216, 190, 184, 0.85);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+
+}
 
 
 .submit {
@@ -150,7 +179,13 @@ section {
 * {
   font-family: 'Ubuntu', sans-serif;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) 
+{
+  .celulares{font-size: 40px;}
+  
+
+  #tinicelulares{
+    padding-top: 50px; padding-bottom: 50px; font-size: 100px;  }
   .column {
     width: 100%;
   }
