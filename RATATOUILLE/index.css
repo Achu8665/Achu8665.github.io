@@ -14,12 +14,12 @@ src:url(Copperplate-Gothic-Bold-Regular.ttf)}
 
   /* unvisited link */
 a:link {
-  color: black;
+  color: #E2DBCD;
 }
 
 /* visited link */
 a:visited {
-  color: #39438C;
+  color: #E2DBCD;
 }
 
 /* mouse over link */
@@ -29,9 +29,11 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #E2DBCD;
+  color: black;
 }
-
+.dropdown-menu :hover{
+  color: #EEB34A;
+}
 .nav-link{
   font-family: "TipografiaPrincipal";
 
@@ -68,3 +70,44 @@ footer {
   background-color:#5a2217; 
   font-family: "TipografiaPrincipal"
 }
+div img{
+  width: 100%;
+}
+.animate__animated.animate__zoomIn {
+  --animate-duration: 3.5s;}
+ 
+  .animate__animated.animate__backInLeft {
+    --animate-duration: 2s;}
+
+
+span.navbar-toggler-icon{
+background-image: url("../IMG/menuh1.svg");
+color: #E2DBCD;
+
+}
+
+ 
+  
+
+  @media (min-width: 576px) {  #collapsibleNavbar {
+
+    justify-content: left;
+  } }
+  
+   
+  @media (min-width: 768px) {  #collapsibleNavbar {
+
+    justify-content: center;
+  }}
+  
+
+  @media (min-width: 992px) {  #collapsibleNavbar {
+
+    justify-content: center;
+  } }
+  
+   
+  @media (min-width: 1200px) {  #collapsibleNavbar {
+
+justify-content: center;
+}  }
