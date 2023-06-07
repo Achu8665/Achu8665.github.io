@@ -34,6 +34,15 @@ a:active {
 .dropdown-menu :hover{
   color: #EEB34A;
 }
+.btn-link {
+  color:#E2DBCD ;
+}
+.btn-link:visited{
+  color:#E2DBCD ;
+}
+.btn-link:hover{
+  color:#EEB34A ;
+}
 .nav-link{
   font-family: "TipografiaPrincipal";
 
@@ -41,7 +50,25 @@ a:active {
 .dropdown-item{
   font-family: "TipografiaPrincipal";
 }
+
+
+.character {
+  margin-bottom: 20px;
+}
+
+.character-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.character-description {
+  margin-left: 10px;
+}
 h1{
+  font-family: "TipografiaPrincipal";
+}
+h2{
   font-family: "TipografiaPrincipal";
 }
   .text{
