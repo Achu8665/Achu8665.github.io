@@ -137,6 +137,8 @@ input[type="checkbox"] {
   margin-right: 5px;
 }
 
+
+
 .submit-button {
   display: flex;
   align-items: center;
@@ -173,10 +175,44 @@ input[type="checkbox"] {
 .sombrerogif{
   width: 120px;
   height: auto;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 
+}
+
+.personajesgif{
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+
+.laurel{
+  width: 70%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#4d58a5;
+  margin-bottom: 10px;
+}
+
+.trufas{
+  width:70%;
+  background-color:#5a2217;;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+   
+}
+
+.huevo{
+  width: 70%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#c49037;
 }
 
 .rotate-in-center {
@@ -312,7 +348,7 @@ input[type="checkbox"] {
 
 
 section{
-  padding: 60px;
+  padding: 30px;
   
 }
 
@@ -335,27 +371,45 @@ h3{
 }
 h4{
   font-family: "TipografiaPrincipal";
+  color: #E2DBCD;
 
 }
 h5{
   font-family: "TipografiaPrincipal";
+  color: black;
 }
 
-   
+.pasoapaso{
+  font-family: "TipografiaPrincipal";
+  color: #E2DBCD;
+  
+}   
   .text{
     font-family: "TipografiaSecundaria";
     padding-top: 25px;
     padding-bottom: 25px;
   }
-.ingredientes{
+.Ingredientes{
   font-family: "TipografiaSecundaria";
+  display: block;
+  width: 50%;
 }
 .ri{
   font-family: "TipografiaSecundaria";
+  color: #E2DBCD;
 
 }
-.preparacion{ 
+.Preparacion{ 
   font-family: "TipografiaSecundaria";
+  display: block;
+  width: 100%;
+}
+
+
+.receta1{
+  display: block;
+  width: 300px;
+  padding-top: -80px;
 }
   .card-title{
     font-family: "TipografiaPrincipal"
