@@ -168,9 +168,8 @@ input[type="checkbox"] {
 .emilegif{
   width: 120px;
   height: auto;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sombrerogif{
   width: 120px;
@@ -305,9 +304,7 @@ input[type="checkbox"] {
   }
 }
 
-.mover{
-  text-align: center;
-}
+
 .textoenviar{
   color: black;
   font-family: "TipografiaPrincipal";
