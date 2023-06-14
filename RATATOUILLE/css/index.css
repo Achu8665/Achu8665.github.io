@@ -687,7 +687,19 @@ color: #E2DBCD;
   @media (min-width: 576px) {  #collapsibleNavbar {
 
     justify-content: left;
+    
   } }
+
+  @media (min-width: 300px) { 
+    .receta1{
+      display: block;
+      width: 200px;
+      padding-top: -80px;
+    }  
+    footer{
+      font-size: 10px;
+    }
+ } 
   
    
   @media (min-width: 768px) {  #collapsibleNavbar {
@@ -695,12 +707,33 @@ color: #E2DBCD;
     justify-content: center;
   }}
   
+  @media (min-width: 768px) { 
+    .receta1{
+      display: block;
+      width: 300px;
+      padding-top: -80px;
+    }  
+    footer{
+      font-size: 13px;
+    }
+ } 
+  
 
   @media (min-width: 992px) {  #collapsibleNavbar {
 
     justify-content: center;
   } }
-  
+  @media (min-width: 992px) { 
+    .receta1{
+      display: block;
+      width: 400px;
+      padding-top: -80px;
+    }  
+    footer{
+      font-size: 15px;
+    }
+ } 
+ 
    
   @media (min-width: 1200px) {  #collapsibleNavbar {
 
