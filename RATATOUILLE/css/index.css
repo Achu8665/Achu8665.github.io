@@ -77,7 +77,12 @@ a:active {
 .video-card {
   width: 100%;
   max-width: 560px;
+  background-color: #4d58a5;
+  border-radius: 20px;
+  min-height: 450px;
+  
 }
+
 
 .video-card iframe {
   width: 100%;
@@ -415,6 +420,11 @@ h5{
     font-family: "TipografiaSecundaria";
     color: black;
 
+  }
+
+  .card{
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .escenas{
